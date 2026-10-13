@@ -8,7 +8,7 @@
     margin: auto
 } 
 .container > div {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
 }
 .header {

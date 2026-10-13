@@ -13,7 +13,7 @@ function changeMessage () {
     }
       if (state === 3) {
         character.src = "piano1.JPG";
-         button.textContent = "is it sleepy time ᶻ 𝗓 𐰁";
+         button.textContent = "is it sleepy time! ᶻ 𝗓 𐰁";
         state = 0;
     }
 }
