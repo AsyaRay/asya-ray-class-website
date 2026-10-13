@@ -1,66 +1,154 @@
-
-.heading {color: black; 
-    text-align: left; 
-    margin: 25px;
-    font-family: Arial, Helvetica, sans-serif;}
-
-body {background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body 
+    {background-color: #cb1f1f;
+    color: black;
     margin: 0;}
 
-img {width: 350px;}
+.maincontent 
+    {max-width: 800px;
+    margin: 45px auto;
+    padding: 25px;
+    background-color: white;}
 
-p {
-    font-size: 20px; 
-    line-height: 15px;
+.maincontent img 
+    {display: block;
+    margin-bottom: 10px;}
+
+.mainheader
+    {border-bottom: 2px solid #cb1f1f;}
+
+.letter 
+    {font-family: "Aston Script";}
+
+.heading-one
+    {color: black;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Aston Script";}
+
+.heading-two
+   {color: black;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;}
+
+.intro
+    {color: black;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.3;}
+
+.heading-three 
+    {color: black;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;}
+
+.heading-four 
+    {color: black;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;}
+
+img {width: 400px;}
+
+p 
+    {font-size: 17px; 
+    margin: 0;
+    line-height: 1.4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-#about {background-color: black; 
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(0, 0, 0); 
-    display: grid; 
-    place-items: left; 
-    align-items: left;
+#about 
+    {background-color: black;
+    border: 2px solid black;
     color: white;
-}
+    padding: 10px;}
 
 ul {width: fit-content;
-    margin: 0 auto;
+    margin: 0;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    
+.box1 
+    {width: 47%; 
+    border: 2px solid black;
+    margin: 15px 0;}
+
+.box2 
+    {width: 46%;
+    border: 2px solid black; 
+    margin: 15px 0;
+    padding: 15px;
+    background-color: black;
+    color: white;}
+
+.box3 
+    {width: 47%;
+    border: 2px solid black; 
+    margin: 15px 0; 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
     text-align: left;}
-    .box1 {width: 30%; border: 2px solid black; margin: 15px auto; padding 15px}
-    .box2 {width: 21.5%; border: 2px solid black; margin: 15px auto; padding 15px}
-    .box3 {width: 21.5%; border: 2px solid black; margin: 15px auto; padding 15px}
+
+ hr 
+    {border: none;
+    border-top: 2px solid #cb1f1f;
+    margin: 25px 0;}
 
     .javascript-page {
     background-color: white;
     text-align: center;
     padding: 25px;
 }
+.album
+    {font-family: "Aston Script";
+    font-size: 25px;
+    color: #cb1f1f;}
 
-.javascript-page h1 {
-    color: #F8A6CA;
+.albumfont 
+    {margin-top: 15px;}
+
+a
+    {color: black;
+    font-size: 20px;}
+
+a:hover 
+    {color: #cb1f1f;}
+
+.favs
+    {margin-top: 15px;}
+
+blockquote 
+    {color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 15px 0;}
+
+.javascript-page h1 
+    {color: #F8A6CA;
     font-family: "Aston Script";
-    src: url(fonts/AstonScript.ttf);
-}
+    src: url(fonts/AstonScript.ttf);}
 
-@font-face {
-    font-family: "Aston Script";
-    src: url(fonts/AstonScript.ttf);
-}
+@font-face 
+    {font-family: "Aston Script";
+    src: url(fonts/AstonScript.ttf);}
 
-.javascript-page #character {
-    width: 350px;
+.javascript-page #character 
+    {width: 350px;
     display: grid;
-    margin: 20px auto;
-}
+    margin: 20px auto;}
 
-.javascript-page #button {
-    background-color: #FFD8EA;
+.javascript-page #button 
+    {background-color: #FFD8EA;
     border: 2px solid #F8A6CA;
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 25px;
-}
+    border-radius: 25px;}
